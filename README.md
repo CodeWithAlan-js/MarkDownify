@@ -1,8 +1,15 @@
-# React + Vite
+# Markdownify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Markdownify is a simple and intuitive online Markdown editor designed to streamline the creation of formatted documents in Markdown. This editor allows you to input text in Markdown within a user-friendly environment, with real-time preview of the formatted output.
 
-Currently, two official plugins are available:
+## Features:
+- **Real-time Editing:** Instantly visualize Markdown rendering as you type.
+- **Syntax Highlighting:** Markdown syntax is highlighted for improved readability.
+- **User-friendly Interface:** A simple and intuitive interface for a pleasant editing experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Use:
+1. **Enter your Markdown content** in the main editor on the left.
+2. **See real-time rendering** in the preview pane on the right.
+
+## Contribution:
+Contributions are welcome! If you'd like to improve Markdownify or report an issue, please submit an issue or pull request.
