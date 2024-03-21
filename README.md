@@ -2,6 +2,9 @@
 
 Markdownify is a simple and intuitive online Markdown editor designed to streamline the creation of formatted documents in Markdown. This editor allows you to input text in Markdown within a user-friendly environment, with real-time preview of the formatted output.
 
+![Preview](public/Mock.png)
+
+
 ## Features:
 - **Real-time Editing:** Instantly visualize Markdown rendering as you type.
 - **Syntax Highlighting:** Markdown syntax is highlighted for improved readability.
