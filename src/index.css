@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose{
+  --tw-prose-bullets: black;
+  max-width: 100%;
+}
+
