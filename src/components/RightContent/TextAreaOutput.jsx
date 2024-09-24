@@ -7,18 +7,16 @@ const TextAreaOutput = () => {
   const { value } = useAreaValueContext();
 
   if (value === null) {
-    return null; 
+    return null;
   }
-  const lines = value.split("\n");
 
   return (
     <div className="w-full md:w-1/2 min-h-screen bg-blue-gray-50 p-8">
       <div className="w-full h-full">
         <pre>
-
-      <Markdown className="prose" remarkPlugins={[remarkGfm]}>
-          {value}
-        </Markdown>
+          <Markdown className="prose" remarkPlugins={[remarkGfm]}>
+            {value}
+          </Markdown>
         </pre>
       </div>
     </div>

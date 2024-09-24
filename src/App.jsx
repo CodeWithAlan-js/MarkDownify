@@ -1,15 +1,13 @@
-import React from 'react'
-import HomePage from './pages/HomePage'
-import { AreaValueProvider } from './context/AreaValueContext'
+import HomePage from "./pages/HomePage";
+import { AreaValueProvider } from "./context/AreaValueContext";
 
 function App() {
-
   return (
-      <AreaValueProvider>
-        <HomePage />
-      </AreaValueProvider>
-  )
+    <AreaValueProvider>
+      <HomePage />
+    </AreaValueProvider>
+  );
 }
 App.whyDidYouRender = true;
 
-export default App
+export default App;
